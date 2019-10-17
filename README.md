@@ -2,7 +2,7 @@
 About jenkins'jobXML building project
 组装jenkins流水线任务构建jobXML实现和pipeline script封装
 # pipeline script 样本
-"
+
 pipeline {
     agent none
     stages {
@@ -58,9 +58,7 @@ pipeline {
         }
     }
 }
-"
 # jenkins JobXml 样本
-"
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@2.35">
   <actions/>
@@ -122,4 +120,3 @@ pipeline {
   <triggers/>
   <disabled>false</disabled>
 </flow-definition>
-"
