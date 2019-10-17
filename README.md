@@ -1,10 +1,10 @@
-#jenkinstool
+jenkinstool
 ===========
 About jenkins'jobXML building project
 组装jenkins流水线任务构建jobXML实现和pipeline script封装
 ## pipeline script 样本
 
-pipeline {
+        pipeline {
     agent none
     stages {
         stage('代码资源') {
